@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Abdelaziz Boujaouane — Développeur Web Full-Stack</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav class="header">
+    <div class="box">
+      <a href="#" class="logo">AB</a>
+      <ul class="links">
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="box hero-box">
+      <div class="hero-text">
+        <span class="badge">Développeur Web Full-Stack</span>
+        <h1>Bonjour, je suis <span class="name">Abdelaziz Boujaouane</span></h1>
+        <p class="sub">Étudiant en développement informatique — Faculté Ain Chock</p>
+        <p>Je crée des applications web performantes et centrées utilisateur.</p>
+        <div class="btns">
+          <a href="#contact" class="btn btn-main">Me contacter</a>
+          <a href="#projects" class="btn btn-out">Voir mes projets</a>
+        </div>
+      </div>
+      <div class="hero-pic">
+        <img src="assets/profile.png" alt="Abdelaziz Boujaouane" width="280" height="280"/>
+      </div>
+    </div>
+    <a href="#about" class="down" aria-label="Défiler">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <section id="about" class="block">
+    <div class="box">
+      <span class="tag">À propos</span>
+      <h2 class="title">Mon parcours</h2>
+      <p class="intro">Parcours académique et professionnel en développement informatique.</p>
+
+      <div class="timeline">
+        <article class="step">
+          <div class="step-icon">
+            <i class="fas fa-graduation-cap"></i>
+            <span class="year">2023</span>
+          </div>
+          <div class="step-text">
+            <h3>Baccalauréat Sciences Physiques</h3>
+            <p>Obtention du bac en Sciences Physiques et Chimie.</p>
+          </div>
+        </article>
+        <article class="step">
+          <div class="step-icon">
+            <i class="fas fa-laptop-code"></i>
+            <span class="year">2023-2025</span>
+          </div>
+          <div class="step-text">
+            <h3>OFPPT — Développement Full Stack</h3>
+            <p>Formation professionnelle en développement web full stack (2 ans).</p>
+          </div>
+        </article>
+        <article class="step current">
+          <div class="step-icon">
+            <i class="fas fa-university"></i>
+            <span class="year">2023—</span>
+          </div>
+          <div class="step-text">
+            <h3>Faculté Ain Chock — Licence Développement Informatique</h3>
+            <p>3ème année de licence, Université Hassan II, Casablanca.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="skills">
+        <h3>Compétences</h3>
+        <div class="skill-list">
+          <div class="skill">
+            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+            <span>HTML/CSS</span>
+            <div class="bar"><div class="fill" style="width:85%"></div></div>
+            <span>85%</span>
+          </div>
+          <div class="skill">
+            <div class="skill-icon"><i class="fab fa-js"></i></div>
+            <span>JavaScript</span>
+            <div class="bar"><div class="fill" style="width:80%"></div></div>
+            <span>80%</span>
+          </div>
+          <div class="skill">
+            <div class="skill-icon"><i class="fab fa-java"></i></div>
+            <span>Java</span>
+            <div class="bar"><div class="fill" style="width:75%"></div></div>
+            <span>75%</span>
+          </div>
+          <div class="skill">
+            <div class="skill-icon"><i class="fab fa-php"></i></div>
+            <span>PHP</span>
+            <div class="bar"><div class="fill" style="width:75%"></div></div>
+            <span>75%</span>
+          </div>
+          <div class="skill">
+            <div class="skill-icon"><i class="fab fa-react"></i></div>
+            <span>React</span>
+            <div class="bar"><div class="fill" style="width:70%"></div></div>
+            <span>70%</span>
+          </div>
+          <div class="skill">
+            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+            <span>Node.js</span>
+            <div class="bar"><div class="fill" style="width:65%"></div></div>
+            <span>65%</span>
+          </div>
+          <div class="skill">
+            <div class="skill-icon"><i class="fas fa-database"></i></div>
+            <span>MySQL</span>
+            <div class="bar"><div class="fill" style="width:75%"></div></div>
+            <span>75%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="block gray">
+    <div class="box">
+      <span class="tag">Projets</span>
+      <h2 class="title">Travaux récents</h2>
+      <p class="intro">Quelques projets réalisés durant ma formation.</p>
+      <div class="grid">
+        <article class="card card-one">
+          <div class="card-line"></div>
+          <div class="card-icon"><i class="fas fa-briefcase"></i></div>
+          <h3>Portfolio Personnel</h3>
+          <p>Site portfolio responsive présentant mes compétences et projets.</p>
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </article>
+        <article class="card card-two">
+          <div class="card-line"></div>
+          <div class="card-icon"><i class="fas fa-car"></i></div>
+          <h3>Location de Voitures</h3>
+          <p>Application web de location avec réservation en ligne.</p>
+          <span>PHP</span><span>MySQL</span><span>Bootstrap</span>
+        </article>
+        <article class="card card-three">
+          <div class="card-line"></div>
+          <div class="card-icon"><i class="fas fa-database"></i></div>
+          <h3>Projet MySQL</h3>
+          <p>Base de données relationnelle, requêtes SQL et gestion des données.</p>
+          <span>MySQL</span><span>SQL</span><span>PHP</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="block">
+    <div class="box">
+      <span class="tag">Contact</span>
+      <h2 class="title">Travaillons ensemble</h2>
+      <p class="intro">Vous avez un projet ? N'hésitez pas à me contacter.</p>
+      <div class="contact-links">
+        <a href="mailto:abdelaziz.boujaouane.dev@email.com">
+          <i class="fas fa-envelope"></i>
+          abdelaziz.boujaouane.dev@email.com
+        </a>
+        <a href="https://wa.me/212700518622" target="_blank" rel="noopener" class="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+          +212 700 518 622
+        </a>
+        <a href="tel:+212700518622">
+          <i class="fas fa-phone"></i>
+          07 00 51 86 22
+        </a>
+      </div>
+      <form class="form" action="mailto:abdelaziz.boujaouane.dev@email.com" method="get" enctype="text/plain">
+        <input type="text" name="name" placeholder="Nom" required/>
+        <input type="email" name="email" placeholder="Email" required/>
+        <input type="text" name="subject" placeholder="Sujet" required/>
+        <textarea name="body" rows="4" placeholder="Message" required></textarea>
+        <button type="submit" class="btn btn-main">
+          <i class="fas fa-paper-plane"></i> Envoyer
+        </button>
+      </form>
+      <div class="social">
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="box">
+      <p>© 2025 Abdelaziz Boujaouane</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
